@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3449127E15CA8C7400258808 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3449127D15CA8C7400258808 /* CoreFoundation.framework */; };
+		3449128415CA8C7400258808 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3449128215CA8C7400258808 /* InfoPlist.strings */; };
+		3449129115CA8E1B00258808 /* MLDesktop.m in Sources */ = {isa = PBXBuildFile; fileRef = 3449129015CA8E1B00258808 /* MLDesktop.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3449127A15CA8C7400258808 /* MLDesktop.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLDesktop.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3449127D15CA8C7400258808 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		3449128115CA8C7400258808 /* MLDesktop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLDesktop-Info.plist"; sourceTree = "<group>"; };
+		3449128315CA8C7400258808 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3449128515CA8C7400258808 /* MLDesktop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLDesktop-Prefix.pch"; sourceTree = "<group>"; };
+		3449128C15CA8DD300258808 /* CTUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTUtil.h; sourceTree = "<group>"; };
+		3449128D15CA8DD300258808 /* CTContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTContext.h; sourceTree = "<group>"; };
+		3449128E15CA8DD300258808 /* CTEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTEffect.h; sourceTree = "<group>"; };
+		3449128F15CA8E1B00258808 /* MLDesktop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDesktop.h; sourceTree = "<group>"; };
+		3449129015CA8E1B00258808 /* MLDesktop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDesktop.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3449127715CA8C7400258808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3449127E15CA8C7400258808 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3449126F15CA8C7400258808 = {
+			isa = PBXGroup;
+			children = (
+				3449128F15CA8E1B00258808 /* MLDesktop.h */,
+				3449129015CA8E1B00258808 /* MLDesktop.m */,
+				3449128B15CA8C9D00258808 /* CTHeaders */,
+				3449127F15CA8C7400258808 /* MLDesktop */,
+				3449127C15CA8C7400258808 /* Frameworks */,
+				3449127B15CA8C7400258808 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3449127B15CA8C7400258808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3449127A15CA8C7400258808 /* MLDesktop.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3449127C15CA8C7400258808 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3449127D15CA8C7400258808 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3449127F15CA8C7400258808 /* MLDesktop */ = {
+			isa = PBXGroup;
+			children = (
+				3449128015CA8C7400258808 /* Supporting Files */,
+			);
+			path = MLDesktop;
+			sourceTree = "<group>";
+		};
+		3449128015CA8C7400258808 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3449128115CA8C7400258808 /* MLDesktop-Info.plist */,
+				3449128215CA8C7400258808 /* InfoPlist.strings */,
+				3449128515CA8C7400258808 /* MLDesktop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3449128B15CA8C9D00258808 /* CTHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				3449128C15CA8DD300258808 /* CTUtil.h */,
+				3449128D15CA8DD300258808 /* CTContext.h */,
+				3449128E15CA8DD300258808 /* CTEffect.h */,
+			);
+			name = CTHeaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3449127915CA8C7400258808 /* MLDesktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3449128815CA8C7400258808 /* Build configuration list for PBXNativeTarget "MLDesktop" */;
+			buildPhases = (
+				3449127615CA8C7400258808 /* Sources */,
+				3449127715CA8C7400258808 /* Frameworks */,
+				3449127815CA8C7400258808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLDesktop;
+			productName = MLDesktop;
+			productReference = 3449127A15CA8C7400258808 /* MLDesktop.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3449127115CA8C7400258808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Zakk;
+			};
+			buildConfigurationList = 3449127415CA8C7400258808 /* Build configuration list for PBXProject "MLDesktop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3449126F15CA8C7400258808;
+			productRefGroup = 3449127B15CA8C7400258808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3449127915CA8C7400258808 /* MLDesktop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3449127815CA8C7400258808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3449128415CA8C7400258808 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3449127615CA8C7400258808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3449129115CA8E1B00258808 /* MLDesktop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3449128215CA8C7400258808 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3449128315CA8C7400258808 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3449128615CA8C7400258808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3449128715CA8C7400258808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3449128915CA8C7400258808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLDesktop/MLDesktop-Prefix.pch";
+				INFOPLIST_FILE = "MLDesktop/MLDesktop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					suppress,
+					"-flat_namespace",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3449128A15CA8C7400258808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLDesktop/MLDesktop-Prefix.pch";
+				INFOPLIST_FILE = "MLDesktop/MLDesktop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					suppress,
+					"-flat_namespace",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3449127415CA8C7400258808 /* Build configuration list for PBXProject "MLDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3449128615CA8C7400258808 /* Debug */,
+				3449128715CA8C7400258808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3449128815CA8C7400258808 /* Build configuration list for PBXNativeTarget "MLDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3449128915CA8C7400258808 /* Debug */,
+				3449128A15CA8C7400258808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3449127115CA8C7400258808 /* Project object */;
+}
